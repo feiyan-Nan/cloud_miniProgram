@@ -1,0 +1,29 @@
+<!--client/pages/mine/index.wxml-->
+<view class="container">
+  <view class="mine">
+    <image class="mine-top-pic" src="https://oss.guangmangapp.com/1f8ef800-ae31-43a3-841b-ad049274f14f.png" mode="aspectFill" lazy-load="true" />
+    <view class="mine-bg">
+      <view class="user-info">
+        <image class="semicircle" src="https://oss.guangmangapp.com/26e3fb75-7e53-4956-bb03-f0409f35fec8.png" mode="widthFix" lazy-load="false" />
+        <view class="avatar">
+          <image class="avatar-img" src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLpcoHIvTFrR6OibmDxNjLKB86FeQmSaS7o1hU15yicb2sypJqJGProLUHEd1HrMKDkiaTtibpSJJl7Og/132" mode="aspectFill" lazy-load="true" />
+        </view>
+        <text class="username">
+          南飞雁
+        </text>
+        <button>注销</button>
+      </view>
+      <view class="person-info">
+        <view class="personal-homepage" bindtap="clickPersonalHomepage">
+          <text>个人主页</text>
+          <icon class='iconfont icon-xiangyou'></icon>
+        </view>
+        <view class="line"></view>
+        <view class="basic-information" bindtap="clickBasicInformation">
+          <text>基本信息</text>
+          <icon class='iconfont icon-xiangyou'></icon>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

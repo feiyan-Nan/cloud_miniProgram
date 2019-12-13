@@ -1,0 +1,88 @@
+/* client/pages/mine/index.wxss */
+.mine-top-pic {
+  width: 100vw;
+  /* height: 100vw; */
+}
+.mine-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(transparent, transparent,#282828, #282828,#282828,#282828);
+  padding: 0 30rpx;
+}
+
+.user-info {
+  position: relative;
+  margin-top: 400rpx;
+  width: 690rpx;
+  height: 260rpx;
+  background: #2f2f2f;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-info .semicircle {
+  position: absolute;
+  top: -118rpx;
+  left: 140rpx;
+  width: 400rpx;
+}
+.avatar {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: -85rpx;
+}
+.avatar-img {
+  width: 180rpx;
+  height: 180rpx;
+}
+.username {
+  position: absolute;
+  top: 82rpx;
+}
+button {
+  position: absolute;
+  bottom: 25rpx;
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #a378fe, #7964fd);
+}
+
+.person-info {
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  width: 690rpx;
+  height: 220rpx;
+  background: #3a3a3a;
+  border-radius: 20rpx;
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.personal-homepage, .basic-information {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personal-homepage text, .basic-information text {
+  margin-left: 15rpx;
+}
+.personal-homepage icon, .basic-information icon {
+  margin-right: 35rpx;
+}
+.line {
+  background: #535353;
+  width: 100%;
+  height: 2rpx;
+}

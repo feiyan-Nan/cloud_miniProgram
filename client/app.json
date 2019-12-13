@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/mine/index",
+    "pages/index/index",
+    "pages/log/index",
+    "pages/addCgi/addCgi",
+    "pages/basic-information/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3a3a3a",
+    "navigationBarTitleText": "前端小破孩",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "1ed7c2",
+    "color": "#ffffff",
+    "backgroundColor": "#3a3a3a",
+    "list": [
+      {
+        "text": "发现",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBar/discover.png",
+        "selectedIconPath": "/images/tabBar/discover-hover.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/index",
+        "iconPath": "images/tabBar/mine.png",
+        "selectedIconPath": "images/tabBar/mine-hover.png"
+      }
+    ]
+  }
+}
